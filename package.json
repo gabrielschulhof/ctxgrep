@@ -1,0 +1,26 @@
+{
+  "name": "ctxgrep",
+  "version": "0.0.1",
+  "description": "Context-aware regex matching",
+  "main": "lib/processor.js",
+  "bin": {
+    "ctxgrep": "lib/cli.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielschulhof/ctxgrep.git"
+  },
+  "keywords": [
+    "grep",
+    "context"
+  ],
+  "author": "Gabriel Schulhof <gabrielschulhof@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielschulhof/ctxgrep/issues"
+  },
+  "homepage": "https://github.com/gabrielschulhof/ctxgrep#readme"
+}
