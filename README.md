@@ -27,7 +27,7 @@ only which dependencies match `graphql`, but also the branch of the tree that
 causes the dependency.
 
 ```bash
-$ yarn list | sed 's/[│ ├─└]/ /g' | ctxgrep graphql
+$ yarn list | | ctxgrep -b graphql
 stdin:     1:yarn list v1.22.19
 stdin:     5:   @apollo/federation@0.15.0-alpha.0
 stdin:     6:      apollo-graphql@^0.4.0

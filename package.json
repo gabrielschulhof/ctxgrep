@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/gabrielschulhof/ctxgrep/issues"
   },
-  "homepage": "https://github.com/gabrielschulhof/ctxgrep#readme"
+  "homepage": "https://github.com/gabrielschulhof/ctxgrep#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
